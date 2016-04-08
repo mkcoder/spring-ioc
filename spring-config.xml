@@ -17,5 +17,15 @@
               </property>
        </bean>
 
+       <bean id="animals" class="Animal">
+              <property name="animals">
+                     <list>
+                            <bean class="Lion" />
+                            <bean class="Cat" />
+                            <bean class="Dog" />
+                            <bean class="Giraffe" />
+                     </list>
+              </property>
+       </bean>
 </beans>
 
